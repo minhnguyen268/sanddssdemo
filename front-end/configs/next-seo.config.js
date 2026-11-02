@@ -1,8 +1,8 @@
 const NextSeoConfig = {
   title: null,
-  titleTemplate: "%s | WORLD CLUBS",
-  defaultTitle: "WORLD CLUBS",
-  description: "WORLD CLUBS - Hệ thống games trực tuyến",
+  titleTemplate: "%s | SANDS BAY CLUBS",
+  defaultTitle: "SANDS BAY CLUBS",
+  description: "SANDS BAY CLUBS - Hệ thống games trực tuyến",
   additionalMetaTags: [
     {
       property: "keywords",
@@ -23,11 +23,11 @@ const NextSeoConfig = {
     type: "website",
     locale: "vi_VN",
     url: process.env.NEXTAUTH_URL,
-    siteName: "WORLD CLUBS",
-    description: "WORLD CLUBS",
+    siteName: "SANDS BAY CLUBS",
+    description: "SANDS BAY CLUBS",
     images: [
       {
-        url: "/assets/images-new/background_bank.png",
+        url: "/assets/logo.svg",
         width: 1200,
         height: 628,
       },
@@ -37,8 +37,8 @@ const NextSeoConfig = {
     appId: process.env.FACEBOOK_APPID,
   },
   twitter: {
-    handle: "@WORLDCLUBS",
-    site: "@LWORLDCLUBS",
+    handle: "@WORLDCssLUBS",
+    site: "@LWORLDCssLUBS",
     cardType: "summary_large_image",
   },
 };
