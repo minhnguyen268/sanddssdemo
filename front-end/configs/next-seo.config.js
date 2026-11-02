@@ -27,7 +27,7 @@ const NextSeoConfig = {
     description: "SANDS BAY CLUBS",
     images: [
       {
-        url: "/assets/logo.svg",
+        url: "/assets/logo.png",
         width: 1200,
         height: 628,
       },
